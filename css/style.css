@@ -1,0 +1,85 @@
+html,body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background-image:url(../img/book.jpg);
+	background-size:cover;
+}
+
+.main {
+	min-height:100%;
+	position:relative;
+}
+
+.books.well {
+	margin:10px;
+	background-color:rgba(221,221,221,0.63);
+}
+#sort{
+	display: none;
+}
+.pagination{
+	display: none;
+}
+
+img {
+	margin-bottom:10px;
+}
+
+ul#info {
+	margin:10px;
+}
+
+.btn.btn-primary.login {
+	margin-top:-10px;
+}
+
+.pull-right.btn.btn-danger.logout {
+	margin-top:8px;
+}
+
+form.admin {
+	margin:50px;
+}
+
+label.admin {
+	margin-top:10px;
+}
+
+/*Preview Modal*/
+.modal {
+	height:95%!important;
+	top:0!important;
+}
+
+.modal-body {
+	height:90%!important;
+}
+
+#previewBody {
+	height:95%!important;
+	overflow:hidden;
+}
+
+button.close {
+	color:#fff;
+}
+
+/*Bootstrap Override */
+input[disabled],input[readonly],textarea[disabled],textarea[readonly] {
+	color:#000;
+	cursor:default;
+	background-color:#eaeded;
+	border:2px solid #dce4ec;
+}
+
+.loader {
+	width:100%;
+	height:100%;
+	margin:10px;
+	display:none;
+}
+
+li {
+	list-style-type:none;
+}
